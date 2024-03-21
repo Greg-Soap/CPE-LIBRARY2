@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function page() {
   return (
     <div className="container">
-      <h1 className="font-bold text-4xl">Account settings</h1>
+      <h1 className="font-bold text-4xl mb-6">Account settings</h1>
       <Tabs defaultValue="profile" className="w-full">
         <TabsList>
           <TabsTrigger value="profile">Profile</TabsTrigger>

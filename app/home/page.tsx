@@ -4,6 +4,7 @@ import TabLib from "../_components/tablib";
 import TabNote from "../_components/tabnote";
 import CourseData from "@/data/coursedata";
 import CourseCard from "../_components/course-card";
+import { SelectScrollable } from "../_components/select-scroll";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -15,7 +16,7 @@ export default function Dashboard() {
   return (
     <>
       <div className="container">
-        <h1 className="font-bold text-4xl">Overview</h1>
+        <h1 className="font-bold text-4xl mb-6">Overview</h1>
         <Tabs defaultValue="courses" className="w-full">
           <TabsList>
             <TabsTrigger value="courses">Courses</TabsTrigger>
