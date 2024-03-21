@@ -22,7 +22,7 @@ interface courseProps {
 export default function CourseCard({ title, desc, hours, docs }: courseProps) {
   return (
     <Link href={`/courses/${title}`}>
-      <Card className="w-[16.5rem] h-[182px] bg-[#faf1fb]">
+      <Card className="h-[182px] bg-secondary">
         <CardHeader>
           <CardTitle className="text-primary text-2xl font-bold">
             {title}

@@ -1,6 +1,6 @@
 import sign from "@/assets/images/signIn.png";
 import Image from "next/image";
-import { LoginForm } from "../_components/loginform";
+import { LoginForm } from "../_components/login-form";
 import book from "@/assets/images/bookIcon.png";
 
 export default function AuthLayout({

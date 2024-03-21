@@ -9,7 +9,7 @@ import Image from "next/image";
 import close from "@/assets/images/close_button.png";
 import arrow from "@/assets/images/leftArrow.png";
 import { Checkbox } from "@/components/ui/checkbox";
-import { SelectCourse } from "./selectCourse";
+import { SelectCourse } from "./select-course";
 import {
   Form,
   FormControl,

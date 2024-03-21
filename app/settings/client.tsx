@@ -4,7 +4,7 @@ import DashboardLayout from "../_components/dashboard-layout";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/seperator";
-import { SettingsForm } from "../_components/settingsform";
+import { SettingsForm } from "../_components/settings-form";
 
 export default function SettingsPage() {
   const [profile, setProfile] = useState(true);

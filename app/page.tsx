@@ -1,12 +1,5 @@
-import { Metadata } from "next";
-import DashHome from "./client";
+import { redirect } from "next/navigation";
 
-export const metadata: Metadata = {
-  title: "Home",
-  openGraph: { title: "Home" },
-  twitter: { title: "Home" },
-};
-
-export default function Dashboard() {
-  return <DashHome />;
+export default async function page() {
+  redirect("/home");
 }
