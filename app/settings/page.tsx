@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function page() {
   return (
-    <div className="container">
+    <>
       <h1 className="font-bold text-4xl mb-6">Account settings</h1>
       <Tabs defaultValue="profile" className="w-full">
         <TabsList>
@@ -28,6 +28,6 @@ export default function page() {
           <SettingsForm page={3} />
         </TabsContent>
       </Tabs>
-    </div>
+    </>
   );
 }

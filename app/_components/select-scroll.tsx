@@ -16,6 +16,14 @@ export function SelectScrollable() {
   const router = useRouter();
   const pathname = usePathname();
   const [selected, setSelected] = React.useState("");
+
+  React.useEffect(() => {
+    const match = pathname.match(/\/courses\/(\w+)/);
+    if (match) {
+      setSelected(match[1]);
+    }
+  }, [pathname]);
+
   const handleValueChange = (value: string) => {
     setSelected(value);
     router.push(`/courses/${value}`);
